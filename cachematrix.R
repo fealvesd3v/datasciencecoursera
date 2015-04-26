@@ -1,8 +1,9 @@
-#This first function, makeVector creates a special "vector", which is really a list containing a function to
-#   Set the value of the vector
-#   Get the value of the vector
-#   Set the value of the mean
-#   Get the value of the mean
+##makeCacheMatrix This function creates a special "matrix" object that can cache its inverse. 
+##Its internal list contains functions to
+##Set the value of the matrix
+##Get the value of the matrix
+##Set the value of the inverse matrix
+##Get the value of the inverse matrix
 makeCacheMatrix <- function(matrix = matrix()) {
   
    ##Initializes the cache to null
